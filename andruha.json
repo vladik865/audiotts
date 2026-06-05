@@ -4,10 +4,11 @@
   "author": "custom",
   "website": "",
   "version": 2,
-  "micro_wake_word_library_version_constraints": ">=1.0.0",
-  "model": "andruha.tflite",
-  "feature_step_size": 10,
-  "tensor_arena_size": 15000,
-  "probability_cutoff": 0.97,
-  "sliding_window_size": 10
+  "micro": {
+    "probability_cutoff": 0.97,
+    "sliding_window_size": 10,
+    "feature_step_size": 10,
+    "tensor_arena_size": 15000
+  },
+  "model": "andruha.tflite"
 }
