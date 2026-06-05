@@ -3,7 +3,7 @@
   "wake_word": "andruha",
   "author": "custom",
   "website": "",
-  "model": "andruha.tflite",
+  "model": "https://raw.githubusercontent.com/vladik865/audiotts/main/andruha.tflite",
   "trained_languages": ["ru"],
   "version": 2,
   "micro": {
