@@ -1,14 +1,16 @@
 {
-  "type": "micro_wake_word_model",
+  "type": "micro",
   "wake_word": "andruha",
   "author": "custom",
   "website": "",
+  "model": "andruha.tflite",
+  "trained_languages": ["ru"],
   "version": 2,
   "micro": {
     "probability_cutoff": 0.97,
-    "sliding_window_size": 10,
+    "sliding_window_size": 5,
     "feature_step_size": 10,
-    "tensor_arena_size": 15000
-  },
-  "model": "andruha.tflite"
+    "tensor_arena_size": 30000,
+    "minimum_esphome_version": "2024.7.0"
+  }
 }
